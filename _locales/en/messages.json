@@ -1,0 +1,104 @@
+{
+  "actionTitle": {
+    "message": "View Sui balances"
+  },
+  "extDescription": {
+    "message": "View coin balances for Sui Mainnet addresses and supported Vault objects."
+  },
+  "popupTitle": {
+    "message": "Sui Balances"
+  },
+  "subtitle": {
+    "message": "Sui Mainnet · Latest index"
+  },
+  "inputLabel": {
+    "message": "Sui address or object ID"
+  },
+  "queryButton": {
+    "message": "Search"
+  },
+  "querying": {
+    "message": "Loading…"
+  },
+  "addressBalance": {
+    "message": "Address balances"
+  },
+  "addressBalanceHint": {
+    "message": "Coin objects + address balances"
+  },
+  "addressEmpty": {
+    "message": "No coins directly held by this address"
+  },
+  "vaultBalance": {
+    "message": "Vault balances"
+  },
+  "footerNote": {
+    "message": "Grouped by holding location"
+  },
+  "rawUnits": {
+    "message": "Base units; coin decimals unavailable"
+  },
+  "loading": {
+    "message": "Fetching on-chain balances…"
+  },
+  "addressBalanceError": {
+    "message": "Address balances"
+  },
+  "internalBalanceError": {
+    "message": "Object balances"
+  },
+  "queryFailed": {
+    "message": "Query failed"
+  },
+  "errorSeparator": {
+    "message": "; "
+  },
+  "noBalance": {
+    "message": "No coin balances found"
+  },
+  "genericFailure": {
+    "message": "Query failed. Please try again."
+  },
+  "switchToSuiscan": {
+    "message": "Open a Suiscan account or object page, or enter a Sui address or object ID"
+  },
+  "invalidSuiId": {
+    "message": "Enter a 0x-prefixed, 64-digit Sui address or object ID"
+  },
+  "unparseableBalancePrefix": {
+    "message": "Could not parse balance field: "
+  },
+  "invalidBalanceDecimals": {
+    "message": "Invalid coin balance or decimals"
+  },
+  "requestFailedHttpPrefix": {
+    "message": "Sui request failed: HTTP "
+  },
+  "requestReturnedError": {
+    "message": "Sui request returned an error"
+  },
+  "requestNoData": {
+    "message": "Sui request returned no data"
+  },
+  "missingAddressBalances": {
+    "message": "Address balances unavailable"
+  },
+  "invalidAddressBalanceField": {
+    "message": "Could not parse address balance field"
+  },
+  "addressBalancePagination": {
+    "message": "Address balance pagination error"
+  },
+  "addressBalanceLimit": {
+    "message": "Address balances exceed 100 pages"
+  },
+  "missingObjectDynamicFields": {
+    "message": "Object not found or dynamic fields unavailable"
+  },
+  "dynamicFieldPagination": {
+    "message": "Dynamic field pagination error"
+  },
+  "dynamicFieldLimit": {
+    "message": "Dynamic fields exceed 100 pages"
+  }
+}

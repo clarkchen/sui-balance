@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sui Balance is a Chrome extension for viewing Sui Mainnet coin balances and supported Vault balances, right from your browser.">
+  <meta name="theme-color" content="#13102d">
+  <title>Sui Balance — See where your Sui balances live</title>
+  <link rel="icon" href="/assets/icon-128.png" type="image/png">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <header class="nav shell">
+    <a class="brand" href="/" aria-label="Sui Balance home"><img src="/assets/icon-128.png" alt="" width="38" height="38"><span>Sui Balance</span></a>
+    <nav aria-label="Main navigation"><a href="#how-it-works">How it works</a><a href="#privacy">Privacy</a><a href="/zh/" lang="zh-CN">中文</a></nav>
+  </header>
+  <main>
+    <section class="hero shell">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="status-dot"></span> CHROME EXTENSION · SUI MAINNET</span>
+        <h1>See where your <em>Sui balances</em> live.</h1>
+        <p class="lead">Check coin balances for an address or object ID in one clear popup. Open a Suiscan page to detect its ID automatically, or paste an ID yourself.</p>
+        <div class="actions"><a class="button primary" href="https://chromewebstore.google.com/detail/sui-balance/nfdaacndhkfdlbdhhciegmhfbpmimnig">Add to Chrome <span aria-hidden="true">↗</span></a><a class="button text" href="#how-it-works">See how it works <span aria-hidden="true">↓</span></a></div>
+        <p class="hero-note">Read-only · No wallet connection · No private keys</p>
+      </div>
+      <div class="visual" aria-label="Illustration of the extension displaying sample balances">
+        <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+        <div class="preview">
+          <div class="preview-top"><img src="/assets/icon-128.png" alt="" width="38" height="38"><div><strong>Sui Balances</strong><small>Sui Mainnet · Latest index</small></div><span class="preview-menu" aria-hidden="true">···</span></div>
+          <div class="preview-field"><span>Sui address or object ID</span><div><code>0x8f20…6a91</code><b>Search</b></div></div>
+          <div class="preview-section"><span>ADDRESS BALANCES</span><div class="preview-row"><span class="coin coin-a">S</span><div><strong>SUI</strong><small>0x2::sui::SUI</small></div><b>1,248.32</b></div><div class="preview-row"><span class="coin coin-b">U</span><div><strong>USDC</strong><small>Example coin</small></div><b>432.08</b></div></div>
+          <div class="preview-vault"><span>SUPPORTED VAULT BALANCES</span><div><span>◈</span><strong>Separate from address balances</strong></div></div>
+          <p class="sample-label">Illustrative preview · sample amounts</p>
+        </div>
+      </div>
+    </section>
+    <section class="trust"><div class="shell trust-inner"><span>ONE ID, A CLEARER VIEW</span><p>Address coins and supported Vault balances appear in separate sections, so you can see where each balance is held.</p></div></section>
+    <section id="how-it-works" class="section shell"><div class="section-heading"><span class="kicker">THE WORKFLOW</span><h2>From page to balance<br>in three small steps.</h2></div><div class="steps"><article><span class="step-no">01</span><h3>Open or paste</h3><p>Open a Suiscan account or object page, or enter any Sui address or object ID in the popup.</p></article><article><span class="step-no">02</span><h3>Search the chain</h3><p>The extension queries the public Sui Mainnet GraphQL endpoint for balances and coin metadata.</p></article><article><span class="step-no">03</span><h3>Read the result</h3><p>See each coin type with on-chain decimals. Supported Vault balances have their own section.</p></article></div></section>
+    <section class="section feature-section"><div class="shell feature-grid"><div><span class="kicker">BUILT FOR CLARITY</span><h2>Useful detail,<br>without the clutter.</h2><p>Coin types with the same symbol stay distinguishable by package ID. If metadata is unavailable, amounts are shown as clearly labeled base units.</p><a class="inline-link" href="https://chromewebstore.google.com/detail/sui-balance/nfdaacndhkfdlbdhhciegmhfbpmimnig">Get the extension <span aria-hidden="true">↗</span></a></div><div class="feature-cards"><article><span class="feature-icon">◫</span><h3>Address balances</h3><p>See total balance by coin type, including Coin objects and Sui address balances.</p></article><article><span class="feature-icon">◇</span><h3>Supported Vaults</h3><p>For objects with supported <code>vault::BalanceKey&lt;T&gt;</code> fields, see internal balances separately.</p></article></div></div></section>
+    <section id="privacy" class="section shell privacy-grid"><div><span class="kicker">PRIVACY BY DESIGN</span><h2>Your keys stay yours.</h2><p>Sui Balance is a read-only viewer. It does not connect to a wallet, request private keys, save your queries, or send data to a publisher-operated server.</p><a class="inline-link" href="/privacy/">Read the privacy policy <span aria-hidden="true">↗</span></a></div><div class="privacy-list"><p><span>01</span> Reads the current tab URL only when you open the popup, to find a Sui ID on Suiscan.</p><p><span>02</span> Sends the chosen ID and relevant coin types over HTTPS to the public Sui GraphQL endpoint.</p><p><span>03</span> Shows the results in the popup without analytics, ads, or tracking code.</p></div></section>
+    <section class="limits shell"><strong>Good to know</strong><p>Public endpoint indexing or rate limits can affect results. The extension does not estimate fiat value or calculate positions in other DeFi protocols.</p></section>
+    <section class="closing shell"><div><span class="kicker">READY TO LOOK CLOSER?</span><h2>Your Sui balances,<br>one click away.</h2></div><a class="button primary light" href="https://chromewebstore.google.com/detail/sui-balance/nfdaacndhkfdlbdhhciegmhfbpmimnig">Add to Chrome <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="footer shell"><div class="brand"><img src="/assets/icon-128.png" alt="" width="30" height="30"><span>Sui Balance</span></div><nav aria-label="Footer"><a href="/privacy/">Privacy policy</a><a href="/zh/">中文</a><a href="https://chromewebstore.google.com/detail/sui-balance/nfdaacndhkfdlbdhhciegmhfbpmimnig">Chrome Web Store ↗</a></nav><small>Independent browser extension for Sui Mainnet.</small></footer>
+</body>
+</html>

@@ -1,0 +1,104 @@
+{
+  "actionTitle": {
+    "message": "查看 Sui 余额"
+  },
+  "extDescription": {
+    "message": "查询 Sui 主网地址的币种余额及支持的 Vault 对象内部余额。"
+  },
+  "popupTitle": {
+    "message": "Sui 余额"
+  },
+  "subtitle": {
+    "message": "Sui Mainnet · 查询最新索引"
+  },
+  "inputLabel": {
+    "message": "Sui 地址或对象 ID"
+  },
+  "queryButton": {
+    "message": "查询"
+  },
+  "querying": {
+    "message": "正在查询…"
+  },
+  "addressBalance": {
+    "message": "地址余额"
+  },
+  "addressBalanceHint": {
+    "message": "Coin 对象 + 地址余额"
+  },
+  "addressEmpty": {
+    "message": "此地址没有直接持有的币"
+  },
+  "vaultBalance": {
+    "message": "Vault 内余额"
+  },
+  "footerNote": {
+    "message": "按持有位置分别列出"
+  },
+  "rawUnits": {
+    "message": "最小单位；未查到币种精度"
+  },
+  "loading": {
+    "message": "正在查询链上余额…"
+  },
+  "addressBalanceError": {
+    "message": "地址余额"
+  },
+  "internalBalanceError": {
+    "message": "对象内部余额"
+  },
+  "queryFailed": {
+    "message": "查询失败"
+  },
+  "errorSeparator": {
+    "message": "；"
+  },
+  "noBalance": {
+    "message": "未查到币余额"
+  },
+  "genericFailure": {
+    "message": "查询失败，请稍后重试"
+  },
+  "switchToSuiscan": {
+    "message": "请切换到 Suiscan 地址或对象页面，或手动输入 Sui 地址 / 对象 ID"
+  },
+  "invalidSuiId": {
+    "message": "请输入 0x 开头的 64 位 Sui 地址或对象 ID"
+  },
+  "unparseableBalancePrefix": {
+    "message": "余额字段无法解析："
+  },
+  "invalidBalanceDecimals": {
+    "message": "币种余额或精度无效"
+  },
+  "requestFailedHttpPrefix": {
+    "message": "Sui 查询失败：HTTP "
+  },
+  "requestReturnedError": {
+    "message": "Sui 查询返回错误"
+  },
+  "requestNoData": {
+    "message": "Sui 查询没有返回数据"
+  },
+  "missingAddressBalances": {
+    "message": "找不到地址余额"
+  },
+  "invalidAddressBalanceField": {
+    "message": "地址余额字段无法解析"
+  },
+  "addressBalancePagination": {
+    "message": "地址余额分页异常"
+  },
+  "addressBalanceLimit": {
+    "message": "地址余额超过 100 页"
+  },
+  "missingObjectDynamicFields": {
+    "message": "找不到对象或无法读取动态字段"
+  },
+  "dynamicFieldPagination": {
+    "message": "动态字段分页异常"
+  },
+  "dynamicFieldLimit": {
+    "message": "动态字段超过 100 页"
+  }
+}

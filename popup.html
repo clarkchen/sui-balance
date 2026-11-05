@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sui Balance</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="mark"><img src="icons/icon-48.png" alt=""></div>
+        <div>
+          <h1 data-i18n="popupTitle">Sui Balances</h1>
+          <p data-i18n="subtitle">Sui Mainnet · Latest index</p>
+        </div>
+      </header>
+
+      <form id="balance-form">
+        <label for="sui-id" data-i18n="inputLabel">Sui address or object ID</label>
+        <div class="input-row">
+          <input id="sui-id" type="text" spellcheck="false" autocomplete="off" placeholder="0x…" required>
+          <button id="refresh" type="submit" data-i18n="queryButton">Search</button>
+        </div>
+      </form>
+
+      <p id="status" role="status" aria-live="polite" data-i18n="querying">Loading…</p>
+
+      <section id="address-section" hidden>
+        <div class="section-title">
+          <h2><span data-i18n="addressBalance">Address balances</span> <small data-i18n="addressBalanceHint">Coin objects + address balances</small></h2>
+          <span id="updated"></span>
+        </div>
+        <div id="address-balances" class="balances"></div>
+        <p id="address-empty" class="empty" hidden data-i18n="addressEmpty">No coins directly held by this address</p>
+      </section>
+
+      <section id="vault-section" hidden>
+        <div class="section-title">
+          <h2 data-i18n="vaultBalance">Vault balances</h2>
+        </div>
+        <div id="vault-balances" class="balances"></div>
+      </section>
+
+      <footer>
+        <span data-i18n="footerNote">Grouped by holding location</span>
+        <a id="explorer-link" href="#" target="_blank" rel="noopener noreferrer" hidden>Suiscan ↗</a>
+      </footer>
+    </main>
+    <script type="module" src="popup.mjs"></script>
+  </body>
+</html>
