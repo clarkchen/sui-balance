@@ -10,5 +10,3 @@ Sui Balance 显示 Sui 主网地址和对象的币种余额。打开 Suiscan 账
 Sui Balance 是只读查看工具，不连接钱包、不要求私钥、不提供法币估值，也不计算其他 DeFi 协议中的仓位。
 
 查询使用 Sui 公共 GraphQL 接口，结果可能受索引延迟或接口限流影响。
-
-开源代码：https://github.com/clarkchen/sui-balance

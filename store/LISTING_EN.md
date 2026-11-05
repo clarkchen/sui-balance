@@ -10,5 +10,3 @@ Sui Balance shows coin balances for Sui Mainnet addresses and objects. Open a Su
 Sui Balance is a read-only viewer. It does not connect to a wallet, request private keys, or estimate fiat value. It does not calculate positions in other DeFi protocols.
 
 Queries use the public Sui GraphQL endpoint. Results may be affected by indexing delays or rate limits.
-
-Open source: https://github.com/clarkchen/sui-balance
